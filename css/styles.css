@@ -1,0 +1,18 @@
+body {
+	background:#333;
+}
+
+#elementaryContainer {
+	width:640px;
+	height:640px;
+	margin:0 auto;
+	outline:none;
+}
+
+#elementaryContainer div {
+	outline:none;
+}
+
+#elementaryContainer canvas {
+	background:#ccc;
+}
