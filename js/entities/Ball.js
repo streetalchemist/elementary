@@ -16,7 +16,7 @@ var Ball = pulse.Sprite.extend({
 
       //Pick random direction
       var newDirection = Math.random()*(2*Math.PI);
-      this.velocity.total = 125;
+      this.velocity.total = 200;
       this.velocity.x = this.velocity.total*Math.cos(newDirection);
       this.velocity.y = this.velocity.total*Math.sin(newDirection);
 
